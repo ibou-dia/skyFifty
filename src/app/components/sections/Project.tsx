@@ -70,7 +70,7 @@ const Project = () => {
               />
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Solution de fluidification du passage à l'aéroport : Check-in numérique, QR Code sécurisé et reconnaissance faciale
+              Solution de fluidification du passage à l&apos;aéroport : Check-in numérique, QR Code sécurisé et reconnaissance faciale
             </p>
           </div>
           
@@ -88,13 +88,13 @@ const Project = () => {
               >
                 <h3 className="text-2xl font-bold mb-2">À propos du projet</h3>
                 <p className="text-white/90 max-w-3xl leading-relaxed">
-                  Pour réduire les files d'attente aux aéroports et simplifier les procédures d'identification, 
+                  Pour réduire les files d&apos;attente aux aéroports et simplifier les procédures d&apos;identification, 
                   nous proposons une plateforme de pré-enregistrement en ligne permettant aux passagers de soumettre 
-                  à l'avance leurs documents de voyage (passeport, billet d'avion, visa).
+                  à l&apos;avance leurs documents de voyage (passeport, billet d&apos;avion, visa).
                 </p>
                 <p className="text-white/90 max-w-3xl mt-3 leading-relaxed">
-                  Une fois les documents vérifiés automatiquement par le système (via des outils d'intelligence artificielle 
-                  et des connexions sécurisées aux bases de données des compagnies aériennes et autorités d'immigration), 
+                  Une fois les documents vérifiés automatiquement par le système (via des outils d&apos;intelligence artificielle 
+                  et des connexions sécurisées aux bases de données des compagnies aériennes et autorités d&apos;immigration), 
                   un QR code unique et sécurisé est généré.
                 </p>
               </motion.div>
@@ -112,14 +112,14 @@ const Project = () => {
                     <span className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-2">
                       <FaLaptopCode className="text-blue-600" />
                     </span>
-                    Comment ça fonctionne à l'aéroport
+                    Comment ça fonctionne à l&apos;aéroport
                   </h4>
                   <ul className="space-y-3 text-gray-600">
                     {[
-                      "Le QR code est scanné au niveau des bornes ou par les agents à l'entrée du terminal",
-                      "Il contient toutes les informations validées et affiche à l'agent un résumé complet du voyageur",
+                      "Le QR code est scanné au niveau des bornes ou par les agents à l&apos;entrée du terminal",
+                      "Il contient toutes les informations validées et affiche à l&apos;agent un résumé complet du voyageur",
                       "Si la reconnaissance faciale a été activée, le passager peut accéder directement aux e-gates",
-                      "Le visage est scanné et comparé avec les photos fournies via notre système d'IA",
+                      "Le visage est scanné et comparé avec les photos fournies via notre système d&apos;IA",
                       "Si la correspondance est validée, le passager passe sans intervention humaine"
                     ].map((feature, index) => (
                       <motion.li 
@@ -208,7 +208,7 @@ const Project = () => {
                     >
                       <h5 className="font-medium text-gray-800 mb-2">Pour les voyageurs</h5>
                       <ul className="space-y-1 text-gray-600 text-sm">
-                        <li>• Réduction significative du temps d'attente</li>
+                        <li>• Réduction significative du temps d&apos;attente</li>
                         <li>• Expérience utilisateur fluide et sans friction</li>
                         <li>• Option 100% sans contact via reconnaissance faciale</li>
                         <li>• Sécurité renforcée des informations personnelles</li>
@@ -226,7 +226,7 @@ const Project = () => {
                         <li>• Optimisation des flux de passagers</li>
                         <li>• Réduction des besoins en personnel</li>
                         <li>• Amélioration de la sécurité globale</li>
-                        <li>• Modernisation de l'infrastructure existante</li>
+                        <li>• Modernisation de l&apos;infrastructure existante</li>
                       </ul>
                     </motion.div>
                   </div>
@@ -261,7 +261,7 @@ const Project = () => {
               </div>
               <h4 className="text-lg font-semibold text-gray-800 mb-2">Gain de temps</h4>
               <p className="text-gray-600">
-                Réduction du temps d'attente de 70% grâce à la vérification automatisée des documents
+                Réduction du temps d&apos;attente de 70% grâce à la vérification automatisée des documents
               </p>
             </motion.div>
             
