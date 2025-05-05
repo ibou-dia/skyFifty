@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FloatingCircle, WavyBackground } from '../DecorativeElements';
+import GithubImage from '../GithubImage';
 import Image from 'next/image';
 
 // Données des membres de l'équipe
@@ -204,7 +205,7 @@ const TeamMembers = () => {
                     transition={{ type: "spring", stiffness: 300, damping: 15 }}
                   >
                     <div className={`w-40 h-40 md:w-56 md:h-56 rounded-lg shadow-lg overflow-hidden border-2 border-white/20`}>
-                      <Image 
+                      <GithubImage 
                         src={member.image}
                         alt={`Photo de ${member.name}`}
                         width={224}

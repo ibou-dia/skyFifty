@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import useScrollToSection from '../hooks/useScrollToSection';
-import Image from 'next/image';
+import GithubImage from './GithubImage';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,7 +38,7 @@ const Navbar = () => {
             onClick={() => scrollToSection('hero')}
             className="flex items-center"
           >
-            <Image 
+            <GithubImage 
               src="/logo-skyfifty.jpg" 
               alt="Logo SkyFifty" 
               width={50} 

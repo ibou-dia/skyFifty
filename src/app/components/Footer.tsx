@@ -2,7 +2,7 @@
 
 import { FaHeart } from 'react-icons/fa';
 import useScrollToSection from '../hooks/useScrollToSection';
-import Image from 'next/image';
+import GithubImage from './GithubImage';
 
 const Footer = () => {
   const scrollToSection = useScrollToSection();
@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <button onClick={() => scrollToSection('hero')} className="flex items-center">
-              <Image 
+              <GithubImage 
                 src="/logo-skyfifty.jpg" 
                 alt="Logo SkyFifty" 
                 width={40} 
@@ -46,7 +46,7 @@ const Footer = () => {
             <FaHeart className="text-cyan-400" /> 
             <span>par</span>
             <div className="flex items-center">
-              <Image 
+              <GithubImage 
                 src="/logo-skyfifty.jpg" 
                 alt="Logo SkyFifty" 
                 width={24} 
