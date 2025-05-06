@@ -116,10 +116,10 @@ const Project = () => {
                   </h4>
                   <ul className="space-y-3 text-gray-600">
                     {[
-                      "Le QR code est scanné au niveau des bornes ou par les agents à l&apos;entrée du terminal",
-                      "Il contient toutes les informations validées et affiche à l&apos;agent un résumé complet du voyageur",
+                      "Le QR code est scanné au niveau des bornes ou par les agents à l'entrée du terminal",
+                      "Il contient toutes les informations validées et affiche à l'agent un résumé complet du voyageur",
                       "Si la reconnaissance faciale a été activée, le passager peut accéder directement aux e-gates",
-                      "Le visage est scanné et comparé avec les photos fournies via notre système d&apos;IA",
+                      "Le visage est scanné et comparé avec les photos fournies via notre système d'IA",
                       "Si la correspondance est validée, le passager passe sans intervention humaine"
                     ].map((feature, index) => (
                       <motion.li 
