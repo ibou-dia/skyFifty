@@ -32,8 +32,8 @@ export default function RootLayout({
     <html lang="fr">
       <head>
         {/* Ajout de liens favicon alternatifs pour assurer la compatibilité */}
-        <link rel="icon" href={`${basePath}/logo-skyfifty.png`} />
-        <link rel="apple-touch-icon" href={`${basePath}/logo-skyfifty.png`} />
+        <link rel="icon" href={`${basePath}/logo_skyfifty.png`} />
+        <link rel="apple-touch-icon" href={`${basePath}/logo_skyfifty.png`} />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
