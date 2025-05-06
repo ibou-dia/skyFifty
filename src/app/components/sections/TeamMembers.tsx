@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FloatingCircle, WavyBackground } from '../DecorativeElements';
 import GithubImage from '../GithubImage';
-import Image from 'next/image';
 
 // Données des membres de l'équipe
 const teamMembers = [

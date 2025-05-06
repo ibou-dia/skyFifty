@@ -11,6 +11,7 @@ const GithubImage = (props: ImageProps) => {
     const basePath = process.env.NODE_ENV === 'production' ? '/test-portfolio' : '';
     const adjustedSrc = `${basePath}${props.src}`;
     
+    // Important : on passe tous les props (y compris alt) à Image
     return <Image {...props} src={adjustedSrc} />;
   }
   
