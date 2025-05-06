@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Equipe SkyFifty",
   description: "Présentation de notre équipe et de notre projet AeroFlow, une solution innovante pour fluidifier le passage à l'aéroport combinant check-in numérique, QR code sécurisé et reconnaissance faciale.",
   icons: {
-    icon: `${basePath}/src/app/logo_skyfifty.png`,
+    icon: `${basePath}/logo-skyfifty.jpg`,
   },
 };
 
@@ -32,8 +32,8 @@ export default function RootLayout({
     <html lang="fr">
       <head>
         {/* Ajout de liens favicon alternatifs pour assurer la compatibilité */}
-        <link rel="icon" href={`${basePath}/src/app/logo_skyfifty.png`} />
-        <link rel="apple-touch-icon" href={`${basePath}/src/app/logo_skyfifty.png`} />
+        <link rel="icon" href={`${basePath}/logo-skyfifty.jpg`} />
+        <link rel="apple-touch-icon" href={`${basePath}/logo-skyfifty.jpg`} />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
