@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Equipe SkyFifty",
   description: "Présentation de notre équipe et de notre projet AeroFlow, une solution innovante pour fluidifier le passage à l'aéroport combinant check-in numérique, QR code sécurisé et reconnaissance faciale.",
   icons: {
-    icon: `${basePath}/logo-skyfifty.jpg`,
+    icon: `${basePath}/logo_skyfifty.png`,
   },
 };
 
