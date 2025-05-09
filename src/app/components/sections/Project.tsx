@@ -147,7 +147,7 @@ const Project = () => {
                     <span className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-2">
                       <FaCode className="text-purple-600" />
                     </span>
-                    Technologies utilisées
+                    Technologies à utiliser
                   </h4>
                   <div className="grid grid-cols-2 gap-3">
                     {['React', 'Django', 'TensorFlow', 'TypeScript', 'Flutter', 'OpenCV'].map((tech, index) => (
@@ -233,7 +233,7 @@ const Project = () => {
                 </div>
               </div>
               
-              <div className="mt-12 text-center">
+              {/* <div className="mt-12 text-center">
                 <Link 
                   href="https://www.figma.com/design/EQLB41iG5osxdOT0laPzaY/Untitled?node-id=0-1&t=htOHAtwo9yvsfrC3-1" 
                   target="_blank" 
@@ -243,7 +243,7 @@ const Project = () => {
                   <FaFigma className="text-xl" />
                   <span>Voir la maquette sur Figma</span>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           
